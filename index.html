@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pengingat Menabung!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <label for="reminderDate">Pilih Tanggal:</label>
+        <input type="date" id="reminderDate" name="reminderDate" />
+      </form>
+
+      <button id="reminderBtn">Pengingat</button>
+      <div id="reminderMsg" class="hidden">
+        Saatnya menabung! (Sisa <span id="daysLeft">...</span> hari)
+        <br />
+        <span id="countdownTimer">...</span>
+      </div>
+    </div>
+    <footer onclick="name(alert('Hello pasangan serasi <3'))">
+      Zidan & Sumiati
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
